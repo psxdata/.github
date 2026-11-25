@@ -11,6 +11,7 @@
 | Download PSX historical stock data in Python or pandas | [psxdata: Python library for PSX data](https://github.com/psxdata/psxdata) | `pip install psxdata` |
 | Get PSX stock prices over HTTP from any language | [psxdata-api: PSX REST API](https://github.com/psxdata/psxdata-api) | [psxdata-api.fastapicloud.dev](https://psxdata-api.fastapicloud.dev) |
 | Ask Claude, Cursor or VS Code about Pakistani stocks | [psxdata-mcp: PSX MCP server](https://github.com/psxdata/psxdata-mcp) | `claude plugin install psxdata@psxdata-mcp` |
+| Use PSX data in Claude without Docker, with warehouse marts | Hosted psxdata connector (invite-only) | [Join the waitlist](https://join.psxdata.org) |
 | Run SQL analytics on modelled, tested PSX data | [psx-warehouse: PSX dbt data warehouse](https://github.com/psxdata/psx-warehouse) | dbt + BigQuery or MotherDuck |
 
 ## Download PSX historical stock prices in Python
@@ -79,7 +80,7 @@ No. Prices are raw PKR closing prices as published by PSX. They are not adjusted
 
 ### Can AI assistants like Claude or ChatGPT analyse Pakistani stocks?
 
-Yes, any assistant that supports the Model Context Protocol (MCP) can. [psxdata-mcp](https://github.com/psxdata/psxdata-mcp) loads PSX data into a local DuckDB database so the assistant can answer questions with SQL.
+Yes, any assistant that supports the Model Context Protocol (MCP) can. [psxdata-mcp](https://github.com/psxdata/psxdata-mcp) loads PSX data into a local DuckDB database so the assistant can answer questions with SQL. A hosted version, with no Docker and with the warehouse marts, is invite-only: join the waitlist at [join.psxdata.org](https://join.psxdata.org).
 
 ## Contributing
 

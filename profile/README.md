@@ -2,7 +2,7 @@
 
 **psxdata** is a free, open-source way to get **Pakistan Stock Exchange (PSX) data**: historical stock prices (OHLCV), live quotes, **KSE-100** index constituents, sector performance, the PSX stock screener, company fundamentals, and debt market data. Use it as a **Python library**, a **REST API**, an **MCP server for AI assistants**, or a **dbt analytics warehouse**.
 
-📖 [Read the psxdata documentation](https://psxdata.mintlify.app) · 🐍 [psxdata on PyPI](https://pypi.org/project/psxdata/) · 🌐 [Live PSX REST API](https://psxdata-api.fastapicloud.dev)
+📖 [Read the psxdata documentation](https://docs.psxdata.org) · 🐍 [psxdata on PyPI](https://pypi.org/project/psxdata/) · 🌐 [Live PSX REST API](https://psxdata-api.fastapicloud.dev)
 
 ## Which psxdata project do you need?
 
